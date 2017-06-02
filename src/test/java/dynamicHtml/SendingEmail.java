@@ -32,7 +32,7 @@ public class SendingEmail {
 		System.out.println("Email sent successfully....");
 		
 		BufferedReader br = new BufferedReader(
-	            new FileReader("./src/dynamicHtml/SendingEmail.java"));
+	            new FileReader("./src/test/java/dynamicHtml/SendingEmail.java"));
 
 	        File f = new File("./src/test/resources/source.html");
 	        BufferedWriter bw = new BufferedWriter(new FileWriter(f));
