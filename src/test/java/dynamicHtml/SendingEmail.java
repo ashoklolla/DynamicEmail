@@ -1,4 +1,4 @@
-package emailSending;
+package dynamicHtml;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -34,7 +34,7 @@ public class SendingEmail {
 		BufferedReader br = new BufferedReader(
 	            new FileReader("./src/emailSending/SendingEmail.java"));
 
-	        File f = new File("./src/source.html");
+	        File f = new File("./src/test/resources/source.html");
 	        BufferedWriter bw = new BufferedWriter(new FileWriter(f));
 	        bw.write("<html>");
 	        bw.write("<body>");
