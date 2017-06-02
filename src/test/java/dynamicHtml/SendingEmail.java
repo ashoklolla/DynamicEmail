@@ -38,7 +38,7 @@ public class SendingEmail {
 	        BufferedWriter bw = new BufferedWriter(new FileWriter(f));
 	        bw.write("<html>");
 	        bw.write("<body>");
-	        bw.write("<h1>ShowGeneratedHtml source</h1>");
+	        bw.write("<h2>Ashok updated source code ShowGeneratedHtml source</h2>");
 	        bw.write("<textarea cols=75 rows=30>");
 
 	        String line;
